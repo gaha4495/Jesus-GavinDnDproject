@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+  <spell>
+      <name>Fire Bolt</name>
+    <classes>Sorcerer, Wizard</classes>
+    <level>0</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>120 feet</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.
+This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
+Source: Somewhere</text>
+    <roll>1d10</roll>
+    <roll>2d10</roll>
+    <roll>3d10</roll>
+    <roll>4d10</roll>
+    </spell>
+  <spell>
+      <name>Spiritual Weapon</name>
+    <classes>Cleric, Cleric (Life), Cleric (War)</classes>
+    <level>2</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>1 minute</duration>
+    <text>You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.
+As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.
+The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.
+At Higher Levels:
+When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
+Source: Somewhere</text>
+    <roll>1d8+SPELL</roll>
+    <roll>1d8</roll>
+    </spell>
+  <monster>
+      <name>Adult Black Dragon</name>
+    <size>H</size>
+    <type>dragon</type>
+    <alignment>Chaotic Evil</alignment>
+    <ac>19 (natural armor)</ac>
+    <hp>195 (17d12+85)</hp>
+    <speed>walk 40 ft., fly 80 ft., swim 40 ft.</speed>
+    <str>23</str>
+    <dex>14</dex>
+    <con>21</con>
+    <int>14</int>
+    <wis>13</wis>
+    <cha>17</cha>
+    <save>Dex +7, Con +10, Wis +6, Cha +8</save>
+    <skill>Perception +11, Stealth +7</skill>
+    <passive>21</passive>
+    <languages>Common, Draconic</languages>
+    <cr>14</cr>
+    <resist></resist>
+    <immune>acid</immune>
+    <vulnerable></vulnerable>
+    <conditionImmune></conditionImmune>
+    <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+    <trait>
+        <name>Amphibious</name>
+      <text>The dragon can breathe air and water.</text>
+      </trait>
+    <trait>
+        <name>Legendary Resistance (3/Day)</name>
+      <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+      </trait>
+    <action>
+        <name>Multiattack</name>
+      <text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+      </action>
+    <action>
+        <name>Bite</name>
+      <text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. 17 (2d10 + 6) piercing damage plus 4 (1d8) acid damage.</text>
+      <attack>Bite|+11|2d10+6</attack>
+      </action>
+    <action>
+        <name>Claw</name>
+      <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage.</text>
+      <attack>Claw|+11|2d6+6</attack>
+      </action>
+    <action>
+        <name>Tail</name>
+      <text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. 15 (2d8 + 6) bludgeoning damage.</text>
+      <attack>Tail|+11|2d8+6</attack>
+      </action>
+    <action>
+        <name>Frightful Presence</name>
+      <text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+      </action>
+    <action>
+        <name>Acid Breath (Recharge 5-6)</name>
+      <text>The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.</text>
+      <attack>Acid Breath (Recharge 5-6)||12d8</attack>
+      </action>
+    <legendary>
+        <text>The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</text>
+      </legendary>
+    <legendary>
+        <name>Detect</name>
+      <text>The dragon makes a Wisdom (Perception) check.</text>
+      </legendary>
+    <legendary>
+        <name>Tail Attack</name>
+      <text>The dragon makes a tail attack.</text>
+      </legendary>
+    <legendary>
+        <name>Wing Attack (Costs 2 Actions)</name>
+      <text>The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+      </legendary>
+    <description>Dragon Boi
+
+Source: Somewhere</description>
+    <environment>bad places</environment>
+    </monster>
+  <monster>
+      <name>Boar</name>
+    <size>M</size>
+    <type>beast</type>
+    <alignment>Unaligned</alignment>
+    <ac>11 (natural armor)</ac>
+    <hp>11 (2d8+2)</hp>
+    <speed>walk 40 ft.</speed>
+    <str>13</str>
+    <dex>11</dex>
+    <con>12</con>
+    <int>2</int>
+    <wis>9</wis>
+    <cha>5</cha>
+    <save></save>
+    <skill></skill>
+    <passive>9</passive>
+    <languages></languages>
+    <cr>1/4</cr>
+    <resist></resist>
+    <immune></immune>
+    <vulnerable></vulnerable>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <trait>
+        <name>Charge</name>
+      <text>If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+      </trait>
+    <trait>
+        <name>Relentless (Recharges after a Short or Long Rest)</name>
+      <text>If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+      </trait>
+    <action>
+        <name>Tusk</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) slashing damage.</text>
+      <attack>Tusk|+3|1d6+1</attack>
+      </action>
+    <description>
+Source: Somewhere</description>
+    <environment>nature</environment>
+    </monster>
+  <monster>
+      <name>Drow</name>
+    <size>M</size>
+    <type>humanoid (elf)</type>
+    <alignment>Neutral Evil</alignment>
+    <ac>15 (chain shirt)</ac>
+    <hp>13 (3d8)</hp>
+    <speed>walk 30 ft.</speed>
+    <str>10</str>
+    <dex>14</dex>
+    <con>10</con>
+    <int>11</int>
+    <wis>11</wis>
+    <cha>12</cha>
+    <save></save>
+    <skill>Perception +2, Stealth +4</skill>
+    <passive>12</passive>
+    <languages>Elvish, Undercommon</languages>
+    <cr>1/4</cr>
+    <resist></resist>
+    <immune></immune>
+    <vulnerable></vulnerable>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 120 ft.</senses>
+    <trait>
+        <name>Fey Ancestry</name>
+      <text>The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.</text>
+      </trait>
+    <trait>
+        <name>Sunlight Sensitivity</name>
+      <text>While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+      </trait>
+    <action>
+        <name>Shortsword</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage.</text>
+      <attack>Shortsword|+4|1d6+2</attack>
+      </action>
+    <action>
+        <name>Hand Crossbow</name>
+      <text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</text>
+      <attack>Hand Crossbow|+4|1d6+2</attack>
+      </action>
+    <action>
+        <name>Variant: Drow Magic Armor and Weapons</name>
+      <text>Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.</text>
+      <text>A drow wearing a +1 chain shirt and carrying a +1 shortsword has AC 16 and a +1 bonus on attack and damage rolls with shortsword attacks.</text>
+      </action>
+    <trait>
+        <name>Innate Spellcasting</name>
+      <text>The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:</text>
+      <text>At will: dancing lights</text>
+      <text>1/day each: darkness, faerie fire</text>
+      </trait>
+    <spells>dancing lights, darkness, faerie fire</spells>
+    <description>A story about drow
+Source: Somewhere</description>
+    <environment>dark places</environment>
+    </monster>
+  </compendium>
